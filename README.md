@@ -1,2 +1,23 @@
-# cmput201
-# cmput201
+# cmput201 lab3
+Brief description: 
+	This assignment implements a lunar lander game.
+
+How to compile:
+	Enter “make” 
+
+How to execute:
+	Enter “./lander -g gravity -t thrust -f filename”. This will generate the executable without any improvement. Gravity should be greater or equal to than 0, thrust should be less or equal to 0, or you will get warnings about invalid command line arguments. You will also get warning about lacking these 3 command line option.
+	The ship will successfully land only it be upright, has a speed less than 20 and lands on a perfect flat surface.
+	besides, adding “-i” in the command line if you want some improvements.
+
+Improvements:
+1.”perfect command arguments checking 
+2.drawing a significantly better ship
+3.preventing the ship from going above the window(get stuck)
+4.causing the ship to explode when it crashed(parts flying everywhere),and putting a “crash” or “landed” on the Sketchpad window
+5.having a graphical fuel gauge(vertical bar which becomes less filled as ship runs out of fuel)
+
+Reference:
+timer.c test_curses.c ball.c
+http://alienryderflex.com/intersect/
+http://invisible-island.net/ncurses/man/ncurses.3x.html
