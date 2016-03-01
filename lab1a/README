@@ -1,0 +1,15 @@
+name: Jinzhu Li
+ONE Card number: 1461696
+Computing Science UNIX ID: jinzhu
+lecture section: A2
+lab section: D01
+TA's name: Chenyang Huang
+
+Brief description: 
+	In this program named draw1a,it will read an input file written in a “little language” for graphics,recognize the type of lines in the input file,and then count how many times each type occurs. After reading all,it will write some statistics to standard output. 
+
+How to compile:
+	Enter “make” 
+
+How to execute:
+	Enter “./draw1a filename”
