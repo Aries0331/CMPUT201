@@ -1,0 +1,15 @@
+name: Jinzhu Li
+ONE Card number: 1461696
+Computing Science UNIX ID: jinzhu
+lecture section: A2
+lab section: D01
+TA's name: Chenyang Huang
+
+Brief description: 
+	In this program named draw1b,it will read an input file and then the program will implement storing, drawing and writing the Image data contained in the input file.Draw1b will start up Sketchpad using popen to create a drawing window. In response to an input file, draw1b would instruct Sketchpad to draw a picture and the program will also produce output to stdout. 
+
+How to compile:
+	Enter “make” 
+
+How to execute:
+	Enter “./draw1b filename”
